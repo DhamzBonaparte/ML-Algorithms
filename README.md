@@ -1,4 +1,4 @@
-# mml-algorithms
+# Ml-algorithms
 
 A collection of machine learning algorithms implemented from scratch in Python.  
 This repository is intended for learning and demonstration purposes — showing how core ML techniques work under the hood without relying on high-level libraries.
