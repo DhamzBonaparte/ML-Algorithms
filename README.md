@@ -22,14 +22,13 @@ This repository is intended for learning and demonstration purposes — showing 
 ## 🚀 Usage Example
 ```python
 import pandas as pd
-from linear_regression import LinearRegression
 
 # Sample training data
 xTrain = pd.Series([1, 2, 3, 4, 5])
 yTrain = pd.Series([2, 4, 6, 8, 10])
 
 # Train model
-lr = LinearRegression()
+lr = MyLR()
 lr.fit(xTrain, yTrain)
 
 # Predict
