@@ -1,7 +1,7 @@
 # ML-algorithms
 
 A collection of machine learning algorithms implemented from scratch in Python.  
-This repository is intended for learning and demonstration purposes — showing how core ML techniques work under the hood without relying on high-level libraries.
+This repository is intended for learning and demonstration purposes, showing how core ML techniques work under the hood without relying on high-level libraries.
 
 ---
 
@@ -14,7 +14,7 @@ This repository is intended for learning and demonstration purposes — showing 
 
 - **[Gradient Descent](ca://s?q=Explain_Gradient_Descent)**  
   Optimization algorithm used to minimize the cost function.  
-  - First implemented with **only the intercept (bias)** term.  
+  - First implemented with **only the intercept (b)** term.  
   - Extended to include both **intercept and slope** for parameter updates.
 
 ---
