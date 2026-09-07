@@ -12,14 +12,21 @@ This repository is intended for learning and demonstration purposes — showing 
 - **[Multiple Linear Regression](ca://s?q=Explain_Multiple_Linear_Regression)**  
   An extension of linear regression that models the relationship between several input features and a continuous target variable. Implemented and tested using the **[Diabetes dataset](ca://s?q=Scikit_learn_diabetes_dataset)** from scikit-learn.
 
+- **[Gradient Descent](ca://s?q=Explain_Gradient_Descent)**  
+  Optimization algorithm used to minimize the cost function.  
+  - First implemented with **only the intercept (bias)** term.  
+  - Extended to include both **intercept and slope** for parameter updates.
+
 ---
 
 ## ⚙️ Features
-- Custom `LinearRegression` and `MultipleLinearRegression` classes with `fit()` and `predict()` methods
+- Custom `LinearRegression`, `MultipleLinearRegression`, and `GradientDescent` implementations with `fit()` and `predict()` methods
 - Gradient-based parameter updates explained step by step
 - Works with **pandas Series**, **NumPy arrays**, or scikit-learn datasets
 - Clear mathematical derivations alongside code
-- Demonstrates both **single-variable regression** and **multi-variable regression**
+- Demonstrates:
+  - **Single-variable regression**
+  - **Multi-variable regression**
+  - **Gradient descent optimization**
 
 ---
-
