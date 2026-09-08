@@ -17,10 +17,16 @@ This repository is intended for learning and demonstration purposes, showing how
   - First implemented with **only the intercept (b)** term.  
   - Extended to include both **intercept and slope** for parameter updates.
 
+- **[Multiple Gradient Descent Regression](ca://s?q=Explain_Multiple_Gradient_Descent)**  
+  A generalized gradient descent implementation for **multi‑feature regression**.  
+  - Updates all coefficients simultaneously using vectorized operations.  
+  - Handles intercept and multiple slopes efficiently.  
+  - Demonstrates convergence behavior compared to closed‑form regression.
+
 ---
 
 ## ⚙️ Features
-- Custom `LinearRegression`, `MultipleLinearRegression`, and `GradientDescent` implementations with `fit()` and `predict()` methods
+- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, and `MyMultipleGDRegressor` implementations with `fit()` and `predict()` methods
 - Gradient-based parameter updates explained step by step
 - Works with **pandas Series**, **NumPy arrays**, or scikit-learn datasets
 - Clear mathematical derivations alongside code
@@ -28,5 +34,6 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Single-variable regression**
   - **Multi-variable regression**
   - **Gradient descent optimization**
+  - **Multiple gradient descent regression**
 
 ---
