@@ -23,10 +23,21 @@ This repository is intended for learning and demonstration purposes, showing how
   - Handles intercept and multiple slopes efficiently.  
   - Demonstrates convergence behavior compared to closed‑form regression.
 
+- **[Stochastic Gradient Descent (SGD)](ca://s?q=Explain_Stochastic_Gradient_Descent)**  
+  Variant of gradient descent where parameters are updated using **one randomly chosen sample** at a time.  
+  - Faster updates, introduces noise that can help escape local minima.  
+  - Demonstrates trade‑off between convergence speed and stability.
+
+- **[Mini‑Batch Gradient Descent](ca://s?q=Explain_Mini_Batch_Gradient_Descent)**  
+  Hybrid approach between batch and stochastic gradient descent.  
+  - Updates parameters using **small batches of samples**.  
+  - Balances efficiency and stability.  
+  - Commonly used in deep learning training.
+
 ---
 
 ## ⚙️ Features
-- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, and `MyMultipleGDRegressor` implementations with `fit()` and `predict()` methods
+- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, and `MiniBatchGDRegressor` implementations with `fit()` and `predict()` methods
 - Gradient-based parameter updates explained step by step
 - Works with **pandas Series**, **NumPy arrays**, or scikit-learn datasets
 - Clear mathematical derivations alongside code
@@ -35,5 +46,8 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Multi-variable regression**
   - **Gradient descent optimization**
   - **Multiple gradient descent regression**
+  - **Stochastic gradient descent**
+  - **Mini‑batch gradient descent**
 
 ---
+
