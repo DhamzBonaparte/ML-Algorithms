@@ -34,11 +34,21 @@ This repository is intended for learning and demonstration purposes, showing how
   - Balances efficiency and stability.  
   - Commonly used in deep learning training.
 
+- **[Ridge Regression](ca://s?q=Explain_Ridge_Regression)**  
+  A regularized version of linear regression that adds a penalty term to shrink coefficients.  
+  - Helps prevent overfitting when features are highly correlated.  
+  - Implemented with closed‑form solution using \((X^T X + \alpha I)^{-1} X^T y\).  
+
+- **[Multiple Ridge Regression](ca://s?q=Explain_Multiple_Ridge_Regression)**  
+  Extension of ridge regression for multi‑feature datasets.  
+  - Handles intercept and multiple slopes with regularization.  
+  - Demonstrates stability compared to ordinary least squares when multicollinearity exists.
+
 ---
 
 ## ⚙️ Features
-- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, and `MiniBatchGDRegressor` implementations with `fit()` and `predict()` methods
-- Gradient-based parameter updates explained step by step
+- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, `MiniBatchGDRegressor`, `RidgeRegressor`, and `MultipleRidgeRegressor` implementations with `fit()` and `predict()` methods
+- Gradient-based and closed‑form parameter updates explained step by step
 - Works with **pandas Series**, **NumPy arrays**, or scikit-learn datasets
 - Clear mathematical derivations alongside code
 - Demonstrates:
@@ -48,6 +58,5 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Multiple gradient descent regression**
   - **Stochastic gradient descent**
   - **Mini‑batch gradient descent**
-
----
-
+  - **Ridge regression**
+  - **Multiple ridge regression**
