@@ -50,10 +50,16 @@ This repository is intended for learning and demonstration purposes, showing how
   - Stops once it finds *any* viable separating line.  
   - Limitation: does not continue searching for the **optimal solution**, unlike logistic regression which optimizes using maximum likelihood.
 
+- **[Sigmoid Logistic Regression](ca://s?q=Explain_Logistic_Regression)**  
+  A probabilistic classifier that improves upon the perceptron.  
+  - Uses the **sigmoid function** to map linear combinations of inputs into probabilities between 0 and 1.  
+  - Decision boundary occurs at probability = 0.5 → corresponds to \(w^T x + b = 0\).  
+  - Unlike the perceptron, logistic regression continues optimizing the boundary using maximum likelihood, ensuring the **best fit** rather than just any separating line.
+
 ---
 
 ## ⚙️ Features
-- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, `MiniBatchGDRegressor`, `RidgeRegressor`, `MultipleRidgeRegressor`, and `Perceptron` implementations with `fit()` and `predict()` methods
+- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, `MiniBatchGDRegressor`, `RidgeRegressor`, `MultipleRidgeRegressor`, `Perceptron`, and `LogisticRegression` implementations with `fit()` and `predict()` methods
 - Gradient-based and closed‑form parameter updates explained step by step
 - Works with **pandas Series**, **NumPy arrays**, or scikit-learn datasets
 - Clear mathematical derivations alongside code
@@ -67,3 +73,4 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Ridge regression**
   - **Multiple ridge regression**
   - **Perceptron classification**
+  - **Logistic regression with sigmoid**
