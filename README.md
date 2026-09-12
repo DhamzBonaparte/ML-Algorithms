@@ -44,10 +44,16 @@ This repository is intended for learning and demonstration purposes, showing how
   - Handles intercept and multiple slopes with regularization.  
   - Demonstrates stability compared to ordinary least squares when multicollinearity exists.
 
+- **[Perceptron Trick](ca://s?q=Explain_Perceptron_Algorithm)**  
+  A foundational binary classifier that inspired logistic regression.  
+  - Works by finding a separating line (or hyperplane) between classes.  
+  - Stops once it finds *any* viable separating line.  
+  - Limitation: does not continue searching for the **optimal solution**, unlike logistic regression which optimizes using maximum likelihood.
+
 ---
 
 ## ⚙️ Features
-- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, `MiniBatchGDRegressor`, `RidgeRegressor`, and `MultipleRidgeRegressor` implementations with `fit()` and `predict()` methods
+- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, `MiniBatchGDRegressor`, `RidgeRegressor`, `MultipleRidgeRegressor`, and `Perceptron` implementations with `fit()` and `predict()` methods
 - Gradient-based and closed‑form parameter updates explained step by step
 - Works with **pandas Series**, **NumPy arrays**, or scikit-learn datasets
 - Clear mathematical derivations alongside code
@@ -60,3 +66,4 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Mini‑batch gradient descent**
   - **Ridge regression**
   - **Multiple ridge regression**
+  - **Perceptron classification**
