@@ -56,10 +56,23 @@ This repository is intended for learning and demonstration purposes, showing how
   - Decision boundary occurs at probability = 0.5 → corresponds to \(w^T x + b = 0\).  
   - Unlike the perceptron, logistic regression continues optimizing the boundary using maximum likelihood, ensuring the **best fit** rather than just any separating line.
 
+- **[Logistic Regression with Cross‑Entropy Loss](ca://s?q=Explain_Cross_Entropy_Loss_in_Logistic_Regression)**  
+  A full implementation of logistic regression using the **cross‑entropy cost function**:  
+  
+
+\[
+  J(\theta) = -\big[y \log(\hat{y}) + (1-y)\log(1-\hat{y})\big]
+  \]
+
+  
+  - Gradient descent is applied to minimize this loss.  
+  - Ensures the model finds the **optimal separating boundary** by maximizing likelihood.  
+  - Demonstrates the difference between perceptron’s hard cutoff and logistic regression’s smooth probability optimization.
+
 ---
 
 ## ⚙️ Features
-- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, `MiniBatchGDRegressor`, `RidgeRegressor`, `MultipleRidgeRegressor`, `Perceptron`, and `LogisticRegression` implementations with `fit()` and `predict()` methods
+- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, `MiniBatchGDRegressor`, `RidgeRegressor`, `MultipleRidgeRegressor`, `Perceptron`, `LogisticRegressionSigmoid`, and `LogisticRegressionCrossEntropy` implementations with `fit()` and `predict()` methods
 - Gradient-based and closed‑form parameter updates explained step by step
 - Works with **pandas Series**, **NumPy arrays**, or scikit-learn datasets
 - Clear mathematical derivations alongside code
@@ -74,3 +87,4 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Multiple ridge regression**
   - **Perceptron classification**
   - **Logistic regression with sigmoid**
+  - **Logistic regression with cross‑entropy loss**
