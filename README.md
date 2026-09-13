@@ -44,6 +44,14 @@ This repository is intended for learning and demonstration purposes, showing how
   - Handles intercept and multiple slopes with regularization.  
   - Demonstrates stability compared to ordinary least squares when multicollinearity exists.
 
+- **[Gradient Descent Ridge Regression](ca://s?q=Explain_Gradient_Descent_Ridge_Regression)**  
+  Extension of gradient descent applied to ridge regression.  
+  - Uses iterative updates to minimize the **ridge cost function**  
+    where the gradient includes both the error term and the regularization penalty.  
+  - Demonstrates how ridge regression can be solved not only with closed‑form solutions but also with **iterative optimization**, making it scalable for large datasets.  
+  - Highlights the trade‑off between bias and variance controlled by the regularization parameter.
+
+
 - **[Perceptron Trick](ca://s?q=Explain_Perceptron_Algorithm)**  
   A foundational binary classifier that inspired logistic regression.  
   - Works by finding a separating line (or hyperplane) between classes.  
