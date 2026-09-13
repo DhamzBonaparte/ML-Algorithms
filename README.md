@@ -57,14 +57,7 @@ This repository is intended for learning and demonstration purposes, showing how
   - Unlike the perceptron, logistic regression continues optimizing the boundary using maximum likelihood, ensuring the **best fit** rather than just any separating line.
 
 - **[Logistic Regression with Cross‑Entropy Loss](ca://s?q=Explain_Cross_Entropy_Loss_in_Logistic_Regression)**  
-  A full implementation of logistic regression using the **cross‑entropy cost function**:  
-  
-
-\[
-  J(\theta) = -\big[y \log(\hat{y}) + (1-y)\log(1-\hat{y})\big]
-  \]
-
-  
+  A full implementation of logistic regression using the **cross‑entropy cost function**
   - Gradient descent is applied to minimize this loss.  
   - Ensures the model finds the **optimal separating boundary** by maximizing likelihood.  
   - Demonstrates the difference between perceptron’s hard cutoff and logistic regression’s smooth probability optimization.
