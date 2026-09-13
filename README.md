@@ -37,7 +37,7 @@ This repository is intended for learning and demonstration purposes, showing how
 - **[Ridge Regression](ca://s?q=Explain_Ridge_Regression)**  
   A regularized version of linear regression that adds a penalty term to shrink coefficients.  
   - Helps prevent overfitting when features are highly correlated.  
-  - Implemented with closed‑form solution using \((X^T X + \alpha I)^{-1} X^T y\).  
+  - Implemented with closed‑form solution.  
 
 - **[Multiple Ridge Regression](ca://s?q=Explain_Multiple_Ridge_Regression)**  
   Extension of ridge regression for multi‑feature datasets.  
