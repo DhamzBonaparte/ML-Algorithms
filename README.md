@@ -70,6 +70,13 @@ This repository is intended for learning and demonstration purposes, showing how
   - Ensures the model finds the **optimal separating boundary** by maximizing likelihood.  
   - Demonstrates the difference between perceptron’s hard cutoff and logistic regression’s smooth probability optimization.
 
+- **[K‑Nearest Neighbors (KNN) Classifier](ca://s?q=Explain_KNN_Classifier)**  
+  A non‑parametric supervised learning algorithm used for classification.  
+  - Predicts the class of a sample by looking at the **majority vote** among its *k* nearest neighbors in feature space.  
+  - Distance metrics (e.g., Euclidean, Manhattan) determine closeness.  
+  - Sensitive to feature scaling → preprocessing with normalization/standardization is essential.  
+  - Demonstrates how instance‑based learning differs from parametric models like logistic regression.
+
 ---
 
 ## ⚙️ Features
@@ -89,3 +96,4 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Perceptron classification**
   - **Logistic regression with sigmoid**
   - **Logistic regression with cross‑entropy loss**
+  - **KNN Classifier**
