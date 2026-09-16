@@ -84,7 +84,7 @@ This repository is intended for learning and demonstration purposes, showing how
 - Gradient-based and closed‑form parameter updates explained step by step
 - Works with **pandas Series**, **NumPy arrays**, or scikit-learn datasets
 - Clear mathematical derivations alongside code
-- Demonstrates:
+- Demonstrates: 
   - **Single-variable regression**
   - **Multi-variable regression**
   - **Gradient descent optimization**
