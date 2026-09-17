@@ -88,7 +88,7 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Single-variable regression**
   - **Multi-variable regression**
   - **Gradient descent optimization**
-  - **Multiple gradient descent regression**
+  - **Multiple gradient descent regression** 
   - **Stochastic gradient descent**
   - **Mini‑batch gradient descent**
   - **Ridge regression**
