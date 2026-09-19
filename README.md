@@ -104,7 +104,7 @@ These are **demo usage examples** included to show how popular ML algorithms can
 Unlike the from‑scratch implementations above, these demos rely on scikit‑learn’s built‑in classes.
 
 - **AdaBoost**  
-  - Demo using `AdaBoostClassifier` and `AdaBoostRegressor`.  
+  - Demo of `AdaBoostClassifier`. 
   - Shows how boosting reweights samples to focus on hard cases.
 
 - **GradientBoostingRegressor**  
@@ -112,6 +112,6 @@ Unlike the from‑scratch implementations above, these demos rely on scikit‑le
   - Highlights how weak learners are added iteratively to minimize residuals.
 
 - **Naive Bayes**  
-  - Demo using `GaussianNB` and `MultinomialNB`.  
+  - Demo of Naive Bayes.
   - Illustrates probabilistic classification based on Bayes’ theorem.
 
