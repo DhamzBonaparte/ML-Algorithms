@@ -77,10 +77,15 @@ This repository is intended for learning and demonstration purposes, showing how
   - Sensitive to feature scaling → preprocessing with normalization/standardization is essential.  
   - Demonstrates how instance‑based learning differs from parametric models like logistic regression.
 
+- **[K‑Means Clustering](ca://s?q=Explain_K_Means_Clustering)**  
+  An unsupervised machine learning algorithm used to partition a dataset into $k$ distinct, non-overlapping clusters.  
+  - Iteratively assigns data points to the nearest cluster centroid and recalculates centroids based on the mean of assigned points.  
+  - Uses distance metrics (such as Euclidean distance) to measure similarity.  
+  - Demonstrates how unsupervised learning discovers hidden patterns and groupings in unlabeled data, unlike supervised classifiers like KNN.
 ---
 
 ## ⚙️ Features
-- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, `MiniBatchGDRegressor`, `RidgeRegressor`, `MultipleRidgeRegressor`, `Perceptron`, `LogisticRegressionSigmoid`, and `LogisticRegressionCrossEntropy` implementations with `fit()` and `predict()` methods
+- Custom `LinearRegression`, `MultipleLinearRegression`, `GradientDescent`, `MyMultipleGDRegressor`, `StochasticGDRegressor`, `MiniBatchGDRegressor`, `RidgeRegressor`, `MultipleRidgeRegressor`, `Perceptron`, `LogisticRegressionSigmoid`,`LogisticRegressionCrossEntropy` and `KMeans` implementations with `fit()` and `predict()` methods
 - Gradient-based and closed‑form parameter updates explained step by step
 - Works with **pandas Series**, **NumPy arrays**, or scikit-learn datasets
 - Clear mathematical derivations alongside code
@@ -97,6 +102,7 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Logistic regression with sigmoid**
   - **Logistic regression with cross‑entropy loss**
   - **KNN Classifier**
+  - **KMeans Classifier**
 
 ## 📌 Demo Implementations (using scikit‑learn)
 
