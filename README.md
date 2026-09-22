@@ -102,7 +102,7 @@ This repository is intended for learning and demonstration purposes, showing how
   - **Logistic regression with sigmoid**
   - **Logistic regression with cross‑entropy loss**
   - **KNN Classifier**
-  - **KMeans Classifier**
+  - **KMeans Clustering**
 
 ## 📌 Demo Implementations (using scikit‑learn)
 
